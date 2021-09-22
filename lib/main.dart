@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
       RoundedLoadingButtonController();
   @override
   void initState() {
-    launchWebsite("http://baustoffhandel-dueck.de.dedi3087.your-server.de");
+    launchWebsite("https://www.baustoffhandel-dueck.de");
     WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
       roundedLoadingButtonController.start();
     });
